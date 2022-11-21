@@ -7,7 +7,7 @@ This is from https://github.com/atolab/zenoh-demo/tree/main/ROS2/zenoh-rust-tele
 * build
 
 ```shell
-colcon
+cargo build 
 ```
 
 * Run
@@ -18,5 +18,5 @@ ros2 run turtlesim turtlesim_node
 # Run zenoh-bridge-dds
 ./zenoh-bridge-dds
 # Run the teleop
-cargo run
+cargo run --bin zenoh-teleop
 ```
